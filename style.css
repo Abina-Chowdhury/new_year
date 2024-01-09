@@ -1,5 +1,5 @@
 .body{
-    padding: 50px 140px;
+    padding: 0px 140px;
 }
 
 .banner{
@@ -15,15 +15,19 @@ margin-top: 50px;
     margin-top: 50px;
 }
 .h6{
-    padding-top: 200px;
-   color: white;
-    font-size: 20px;
-    text-align: center;
-    /* margin-bottom: 300px; */
+    color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 200px;
 }
 .h1{
     color: #FFF;
-/* padding-top: 10px; */
+margin-top: -50px;
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
@@ -51,6 +55,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin-top: 120px;
 }
 .all{
     color: #070211;
@@ -156,6 +161,7 @@ color: #FFF;
 .row{
     width: 1320px;
     height: 500px;
+    margin-top: 120px;
 }
 
 .column {
@@ -284,8 +290,8 @@ height: 206.841px;
 }
 
 
-.products{
-max-width: 1320px;
+.products1{
+max-width: 1820px;
 }
 .gift-best{
     color: #F00;
@@ -296,26 +302,6 @@ font-weight: 500;
 line-height: normal;
 padding-top: 150px;
 }
-.gallery {
-    margin: 5px;
-    border: 1px solid #f5f4f4;
-    border-radius: 18px;
-    float: left;
-    /* width: 420px; */
-    height:450px;
-  }
-  
-  .gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  .gallery img {
-
-    width: 396px;
-    height:450px;
-    /* width: 100%;
-    height: auto; */
-  }
 
 
 .subscribe{
@@ -323,7 +309,7 @@ padding-top: 150px;
 height: 616px;
 border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
-margin-top:1110px;
+margin-top:120px;
 }
 .img6{
     width: 150px;
@@ -519,8 +505,27 @@ margin-top: 30px;
     margin-top: 10px;
   }
 
+  .gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5vh;
+    margin-inline: auto;
+    max-width: 83rem;
+/*     background: #141414; */
+    padding: 1vh;
+    margin-left: 132px;
+   
+}
 
-  
+ .gallery > img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    border-radius: 16px;
+}
 
-  
-  
+.gallery img:hover {
+   
+  border:3px solid red;
+}
