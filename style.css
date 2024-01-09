@@ -1,5 +1,5 @@
 .body{
-    margin-left: 140px;
+    padding: 50px 140px;
 }
 
 .banner{
@@ -15,7 +15,7 @@ margin-top: 50px;
     margin-top: 50px;
 }
 .h6{
-    margin-top: 50px;
+    padding-top: 200px;
    color: white;
     font-size: 20px;
     text-align: center;
@@ -23,7 +23,7 @@ margin-top: 50px;
 }
 .h1{
     color: #FFF;
-margin-top: 230px;
+/* padding-top: 10px; */
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
@@ -105,7 +105,7 @@ margin-top: -400px;
 .address{
     width: 1320px;
 height: 482px;
-
+margin-top: 120px;
 flex-shrink: 0;
 background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
@@ -127,7 +127,7 @@ line-height: 30px;
     line-height: 56px;
     text-transform: capitalize;
     text-align: center;
-    margin-top: 80px;
+   padding-top: 80px;
 }
 .join{
     text-align: center;
@@ -258,6 +258,7 @@ justify-content: center;
     background-image: url('./images/Rectangle2.png');
     width: 1320px;
 height: 229px;
+margin-top: -2px;
 
 }
 .img3{
@@ -282,39 +283,41 @@ height: 470.841px;
 height: 206.841px;
 }
 
-.gift-p{
-    color: #F00;
 
+.products{
+max-width: 1320px;
+}
+.gift-best{
+    color: #F00;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+padding-top: 150px;
 }
-/* .products{
-    width: 406px;
-height: 450px;
-
-} */
-
-
-
 .gallery {
-    margin: 10px;
+    margin: 5px;
+    border: 1px solid #f5f4f4;
+    border-radius: 18px;
     float: left;
-  
+    /* width: 420px; */
+    height:450px;
   }
   
   .gallery:hover {
-    border: 2px solid #b42525;
-
+    border: 1px solid #777;
   }
   
   .gallery img {
-    width: 420px;
-    height: 450px;
-    /* border-radius: 16px; */
+
+    width: 396px;
+    height:450px;
+    /* width: 100%;
+    height: auto; */
   }
+
+
 .subscribe{
     width: 1320px;
 height: 616px;
@@ -358,10 +361,35 @@ text-transform: capitalize;
 height: 72px;
 flex-shrink: 0;
 border-radius: 50px;
-background: #FFF;
+/* background: #FFF; */
 margin-left: 320px;
 }
+.container {
+    padding: 20px;
+    text-align: center;
+  }
 
+input[type=text]  {
+    width: 30%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+   border-radius: 50px 5px 5px 50px;
+  }
+  input[type=submit] {
+    width: 10%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   border-radius: 5px 50px 50px 5px;
+   margin-left:-5px;
+   background-color: #F00;
+   color: white;
+  }
   .footer{
     background-color: black;
     width: 1600px;
@@ -465,6 +493,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px;
+margin-top: -50px;
   }
 
   .our{
@@ -476,6 +505,7 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 text-transform: capitalize;
+margin-top: 30px;
   }
 
   .call{
